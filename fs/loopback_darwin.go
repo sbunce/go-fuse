@@ -13,8 +13,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/internal/utimens"
+	"github.com/sbunce/go-fuse/v3/fuse"
+	"github.com/sbunce/go-fuse/v3/internal/utimens"
 )
 
 var _ = (NodeGetxattrer)((*LoopbackNode)(nil))

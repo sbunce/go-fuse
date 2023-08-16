@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
+	"github.com/sbunce/go-fuse/v3/fuse"
 	"golang.org/x/sys/unix"
 )
 

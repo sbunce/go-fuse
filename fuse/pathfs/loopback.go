@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/fuse/nodefs"
-	"github.com/hanwen/go-fuse/v2/internal"
+	"github.com/sbunce/go-fuse/v3/fuse"
+	"github.com/sbunce/go-fuse/v3/fuse/nodefs"
+	"github.com/sbunce/go-fuse/v3/internal"
 )
 
 type loopbackFileSystem struct {

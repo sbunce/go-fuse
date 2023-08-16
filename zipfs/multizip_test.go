@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fs"
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/internal/testutil"
+	"github.com/sbunce/go-fuse/v3/fs"
+	"github.com/sbunce/go-fuse/v3/fuse"
+	"github.com/sbunce/go-fuse/v3/internal/testutil"
 )
 
 const testTtl = 100 * time.Millisecond

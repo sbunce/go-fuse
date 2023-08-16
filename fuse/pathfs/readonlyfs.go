@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/fuse/nodefs"
+	"github.com/sbunce/go-fuse/v3/fuse"
+	"github.com/sbunce/go-fuse/v3/fuse/nodefs"
 )
 
 // NewReadonlyFileSystem returns a wrapper that only exposes read-only

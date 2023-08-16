@@ -7,8 +7,8 @@ package pathfs
 import (
 	"time"
 
-	"github.com/hanwen/go-fuse/v2/fuse"
-	"github.com/hanwen/go-fuse/v2/fuse/nodefs"
+	"github.com/sbunce/go-fuse/v3/fuse"
+	"github.com/sbunce/go-fuse/v3/fuse/nodefs"
 )
 
 // NewDefaultFileSystem creates a filesystem that responds ENOSYS for
